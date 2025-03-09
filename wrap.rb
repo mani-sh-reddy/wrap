@@ -6,7 +6,7 @@ class Wrap < Formula
   head "https://github.com/mani-sh-reddy/wrap.git", branch: "main"
 
   def install
-    bin.install "wrap"
+    bin.install "wrap.sh" => "wrap"
   end
 
   test do
